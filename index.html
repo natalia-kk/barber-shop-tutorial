@@ -1,0 +1,253 @@
+<!-- TUTORIAL - https://www.youtube.com/watch?v=lBfshkPlMW8 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Barber Shop Website Design - Easy Tutorials</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <!-- fontawesome-->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> 
+    <script src="https://use.fontawesome.com/45a6d4acd1.js"></script> 
+    <script src="https://kit.fontawesome.com/e5eebdbfc2.js" crossorigin="anonymous"></script> -->
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap" rel="stylesheet">
+    <!-- from https://github.com/cferdinandi/smooth-scroll -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+
+<body>
+    <section id="banner">
+        <img src="images/logo.png" class="logo">
+        <div class="banner-text">
+            <h1>Hair Studio</h1>
+            <p>Style Your Hair Style Your Life</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>Find Out</a>
+                <a href="#"><span></span>Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#banner">HOME</a></li>
+                <li><a href="#feature">FEATURES</a></li>
+                <li><a href="#service">SERVICES</a></li>
+                <li><a href="#testimonial">TESTIMONIALS</a></li>
+                <li><a href="#footer">MEET US</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menuBtn">
+        <img src="images/menu.png" id="menu">
+    </div>
+
+    <!-- Features -->
+    <section id="feature">
+
+        <div class="title-text">
+            <p>FEATURES</p>
+            <h1>Why Choose Us</h1>
+        </div>
+
+        <div class="feature-box">
+            <div class="features">
+                <h1>Experienced Staff</h1>
+                <div class="features-description">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-shield"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+                <h1>Pre Booking Online</h1>
+                <div class="features-description">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-square-check"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+                <h1>Affordable Cost</h1>
+                <div class="features-description">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="features-img">
+                <img src="images/barber-man.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+     <!-- Service -->
+     <section id="service">
+
+        <div class="title-text">
+            <p>SERVICES</p>
+            <h1>We Provide Better</h1>
+        </div>
+
+        <div class="service-box">
+            <div class="single-service">
+                <img src="images/pic-1.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="service-description">
+                    <h3>Hair Styling</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="images/pic-2.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="service-description">
+                    <h3>Hair Styling</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="images/pic-3.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="service-description">
+                    <h3>Beard Trim</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="images/pic-4.jpg" alt="">
+                <div class="overlay"></div>
+                <div class="service-description">
+                    <h3>Dry Shampoo</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+
+     </section>
+
+    <!-- Testimonial -->
+    <section id="testimonial">
+
+        <div class="title-text">
+            <p>TESTIMONIALS</p>
+            <h1>What Clients Say</h1>
+        </div>
+        <!-- 3 column layout -->
+        <div class="testimonial-row">
+            <div class="testimonial-column">
+                <div class="user">
+                    <img src="images/img-1.jpg" alt="">
+                    <div class="user-info">
+                        <h4>KEN NORMAN <i class="fa-brands fa-twitter"></i></h4>
+                        <small>@kennorman</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+            <div class="testimonial-column">
+                <div class="user">
+                    <img src="images/img-2.jpg" alt="">
+                    <div class="user-info">
+                        <h4>LIARA KARIAN <i class="fa-brands fa-twitter"></i></h4>
+                        <small>@liarakarian</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
+            </div>
+            <div class="testimonial-column">
+                <div class="user">
+                    <img src="images/img-3.jpg" alt="">
+                    <div class="user-info">
+                        <h4>RICKY DANIEL <i class="fa-brands fa-twitter"></i></h4>
+                        <small>@rickydaniel</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+
+        <img src="images/footer-img.png" class="footer-img" alt="">
+
+        <div class="title-text">
+            <p>CONTACT</p>
+            <h1>Visit Shop Today</h1>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Opening Hours</h1>
+                <p><i class="fa-solid fa-clock"></i>Monday to Friday - 9am to 9pm</p>
+                <p><i class="fa-solid fa-clock"></i>Saturday and Sunday - 8am to 11pm</p>
+            </div>
+            <div class="footer-right">
+                <h1>Get In Touch</h1>
+                <p>#30 abc Colony, xyz City IN <i class="fa-solid fa-location-dot"></i></p>
+                <p>example@website.com <i class="fa-solid fa-envelope"></i></p>
+                <p>0123 405 493 <i class="fa-solid fa-phone"></i></p>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <p>Copyright Easy Tutorials YouTube Channel</p>
+        </div>
+
+    </section>
+
+    <!-- Script -->
+    <script>
+        // create variables:
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right = "-250px"; // set initial state
+
+        menuBtn.onclick = function() {
+            // click to open, show close icon //
+            if(sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+                menu.src = "images/close.png";
+            }
+            // click to close, show menu icon //
+            else{
+                sideNav.style.right = "-250px";
+                menu.src = "images/menu.png";
+            }
+        }
+
+        // Smooth scroll (from github)
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true
+        });
+    </script>
+
+</body>
+
+</html>
